@@ -57,13 +57,14 @@
           <div class="column has-text-centered">
             <h1 class="title is-1 publication-title">AVNet: Cross-Spectral Attention-Vision Model for Camouflaged Object
               Detection in Ecological Conservation</h1>
+            
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
-              <span class="author-block"><a href="FIRST AUTHOR PERSONAL LINK" target="_blank">Henry O. Velesaca</a><sup>*</sup>,</span>
-              <span class="author-block"><a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Andrea Mero</a><sup></sup>,</span>
-              <span class="author-block"><a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Rafael E. Rivadeneira</a>,</span>
-              <span class="author-block"><a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Guillermo A. Castillo</a>,</span>
-              <span class="author-block"><a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Angel D. Sappa</a></span>
+              <span class="author-block"><a target="_blank">Henry O. Velesaca</a><sup>*</sup>,</span>
+              <span class="author-block"><a target="_blank">Andrea Mero</a><sup></sup>,</span>
+              <span class="author-block"><a target="_blank">Rafael E. Rivadeneira</a>,</span>
+              <span class="author-block"><a target="_blank">Guillermo A. Castillo</a>,</span>
+              <span class="author-block"><a target="_blank">Angel D. Sappa</a></span>
             </div>
 
             <div class="is-size-5 publication-authors">
@@ -143,11 +144,11 @@
           <div class="content has-text-justified">
             <p>
               This work introduced AVNet, a novel attention-vision architecture for Camouflaged Object Detection (COD),
-              optimized for ecological conservation. The proposed approach integrates an RGB-Thermal fusion approach
-              with the Convolutional Block Attention Model (CBAM) within an encoder-decoder framework, enabling ac-
-              curate detection of low-contrast and highly camouflaged targets. As an additional contribution, this study
-              introduces the Bimodal Iguana Observational Set (BIOS), comprising 148 camouflaged RGB-Thermal reg-
-              istered image pairs, specifically collected to support COD research in wildlife conservation. Experimental
+              optimized for ecological conservation. The proposed approach integrates an RGB-Thermal fusion approach with 
+              the Convolutional Block Attention Model (CBAM) within an encoder-decoder framework, enabling accurate detection 
+              of low-contrast and highly camouflaged targets. As an additional contribution, this study
+              introduces the Bimodal Iguana Observational Set (BIOS), comprising 148 camouflaged RGB-Thermal registered image pairs, 
+              specifically collected to support COD research in wildlife conservation. Experimental
               results validate the model’s robustness under challenging real-world conditions. The original code and dataset
               presented in the study are openly available in GitHub at 
               <a href="https://anonymous.4open.science/w/AVNet-D75E/">https://cod-espol.github.io/AVNet</a>.
@@ -250,29 +251,30 @@
 
 
   <!--BibTex citation -->
-  <section class="section" id="BibTeX">    
+  <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
-      <h2 class="title">BibTeX</h2>
-      
-      <button class="copy-bibtex-btn" onclick="copyBibTeX()" title="Copy BibTeX to clipboard">
-        <svg class="svg-inline--fa fa-copy fa-w-14" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="copy" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M320 448v40c0 13.255-10.745 24-24 24H24c-13.255 0-24-10.745-24-24V120c0-13.255 10.745-24 24-24h72v296c0 30.879 25.121 56 56 56h168zm0-344V0H152c-13.255 0-24 10.745-24 24v368c0 13.255 10.745 24 24 24h272c13.255 0 24-10.745 24-24V128H344c-13.2 0-24-10.8-24-24zm120.971-31.029L375.029 7.029A24 24 0 0 0 358.059 0H352v96h96v-6.059a24 24 0 0 0-7.029-16.97z"></path></svg><!-- <i class="fas fa-copy"></i> Font Awesome fontawesome.com -->
-        <span class="copy-text">Copy</span>
-      </button>
-  
+      <div class="bibtex-header">
+        <h2 class="title">BibTeX</h2>
+        <button class="copy-bibtex-btn" onclick="copyBibTeX()" title="Copy BibTeX to clipboard">
+          <i class="fas fa-copy"></i>
+          <span class="copy-text">Copy</span>
+        </button>
+      </div>
       <p>Please cite this paper if you find it helpful (accepted paper),</p>
-      <pre><code>
-      @inproceedings{velesaca2026cod_rgb_thermal,
-        title={AVNet: Cross-Spectral Attention-Vision Model for Camouflaged Object Detection in Ecological Conservation},
-        author={Velesaca, Henry O. and Mero, Andrea and E. Rivadeneira, Rafael and Castillo, Guillermo A. and Sappa, Angel D.},
-        booktitle={Int. Conf. on Computer Vision Theory and Applications, Marbella, Spain},
-        pages={1--10},
-        year={2026}
-      }
-      </code></pre>
+      <pre id="bibtex-code">
+        <code>
+          @inproceedings{velesaca2026cod_rgb_thermal,
+            title={AVNet: Cross-Spectral Attention-Vision Model for Camouflaged Object Detection in Ecological Conservation},
+            author={Velesaca, Henry O. and Mero, Andrea and E. Rivadeneira, Rafael and Castillo, Guillermo A. and Sappa, Angel D.},
+            booktitle={Int. Conf. on Computer Vision Theory and Applications, Marbella, Spain},
+            pages={1--10},
+            year={2026}
+          }
+        </code>
+      </pre>
     </div>
-  </section> -->
-  <!--End BibTex citation -->
-
+</section>
+<!--End BibTex citation -->
 
   <footer class="footer">
     <div class="container">
@@ -306,6 +308,7 @@
 
 
 </html>
+
 
 
 
